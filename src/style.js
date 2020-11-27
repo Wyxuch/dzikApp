@@ -4,6 +4,11 @@ const mediumGray = '#4B4B4B'
 const darkGray = '#242424'
 const darkGreen = '#013300'
 const lightGreen = '#084A07'
+const lightYellow = 'FFB64D'
+const darkYellow = 'BF770F'
+const darkRed = 'EB3223'
+const loghterGreen = '499F13'
+const lightRed = 'F67E3A'
 
 const style = {
     Main: {
