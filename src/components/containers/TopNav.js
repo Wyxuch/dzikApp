@@ -2,7 +2,7 @@ import React from "react";
 import { View, Text, Image, TouchableOpacity } from "react-native";
 import style from "../../style";
 
-const TopNav = () => {
+const TopNav = (props) => {
     return (
         <View style={{height: 60, ...style.Shadow}}>
             <View style={style.TopNav}>
@@ -11,7 +11,7 @@ const TopNav = () => {
                     <Text style={style.NavTitle}>DZIK!</Text>
                     <Image style={style.Logo} source={require('../../assets/images/logo.png')}/>
                 </View>
-                <TouchableOpacity onPress={()=>{alert("you clicked me")}}>
+                <TouchableOpacity onPress={()=>{alert(props)}}>
                     <Image style={style.Logo} source={require('../../assets/images/menu.png')}/>
                 </TouchableOpacity>
             </View>

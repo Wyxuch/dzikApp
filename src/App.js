@@ -7,6 +7,9 @@
  */
 
 import React from 'react';
+import { createDrawerNavigator } from '@react-navigation/drawer';
+import { NavigationContainer } from '@react-navigation/native';
+import { useNavigation } from '@react-navigation/native';
 
 import {
   SafeAreaView,
@@ -17,16 +20,26 @@ import {
 
 import style from "./style";
 import TopNav from "./components/containers/TopNav";
+import Home from "./views/Home"
+import AdvancedReport from "./views/AvancedReport";
+
+const Drawer = createDrawerNavigator();
 
 const App: () => React$Node = () => {
+
   return (
     <View style={{flex: 1}}>
       <StatusBar barStyle="dark-content" />
       <SafeAreaView style={{flex: 1}}>
-        <TopNav/>
-        <View style={style.Main}>
-
-        </View>
+        <TopNav />
+          <NavigationContainer>
+            <View style={style.Main}>
+                <Drawer.Navigator initialRouteName="Home">
+                    <Drawer.Screen name="Home" component={Home} />
+                    <Drawer.Screen name="AdvancedReport" component={AdvancedReport} />
+                </Drawer.Navigator>
+            </View>
+          </NavigationContainer>
       </SafeAreaView>
     </View>
   );
