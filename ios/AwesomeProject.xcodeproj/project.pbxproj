@@ -16,6 +16,19 @@
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* AwesomeProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* AwesomeProjectTests.m */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		1A2B5ED7F6104060A0F4D19F /* FredokaOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B1CAFF93BE9247CAAB17F1B6 /* FredokaOne-Regular.ttf */; };
+		A37C3090DC654D1DBDEAC648 /* detail.png in Resources */ = {isa = PBXBuildFile; fileRef = 9553D1AB2AFB4ECD8A445828 /* detail.png */; };
+		70C34DD3D099436FAABE2F2E /* detail2.png in Resources */ = {isa = PBXBuildFile; fileRef = 73BD3E158E8C431E99308001 /* detail2.png */; };
+		AD927CBAA7E346899AFEAA03 /* emergency.png in Resources */ = {isa = PBXBuildFile; fileRef = AF2EDE9BE0D2427FBB541B58 /* emergency.png */; };
+		0E77C014D30A4126BA456069 /* help.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F060891C0BD42319850E727 /* help.png */; };
+		428DEEBB660D44859FA7F114 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 50767860CFC548B88F8CE1A0 /* home.png */; };
+		FA10FEE6EAA94A54AF7542C9 /* Knowledge.png in Resources */ = {isa = PBXBuildFile; fileRef = 51B047CD67AA49BC8ADA5D62 /* Knowledge.png */; };
+		46EFC4A474674B469A731F48 /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = FF8F27C024EB48C3A916D011 /* menu.png */; };
+		E79602C456014636B476640F /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = E5EF5562D6C341678A866B3C /* settings.png */; };
+		C2A20B940FB44AB58598E4B4 /* stats.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A0E4683A899483CB701264D /* stats.png */; };
+		6654DCABC7F946F1B87C741B /* User.png in Resources */ = {isa = PBXBuildFile; fileRef = FB502584733C445A93C56A3A /* User.png */; };
+		8FB90E6599C140DFA3D7264E /* fredoka.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CA8CF821B9E84E209E6CBE2D /* fredoka.ttf */; };
+		15A75CCE61EC4DAC90C7A55F /* fredokaa.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CDBEA9A47DA24B9493F1095D /* fredokaa.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +64,19 @@
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = AwesomeProject/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		B1CAFF93BE9247CAAB17F1B6 /* FredokaOne-Regular.ttf */ = {isa = PBXFileReference; name = "FredokaOne-Regular.ttf"; path = "../src/assets/fonts/FredokaOne-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9553D1AB2AFB4ECD8A445828 /* detail.png */ = {isa = PBXFileReference; name = "detail.png"; path = "../src/assets/images/detail.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		73BD3E158E8C431E99308001 /* detail2.png */ = {isa = PBXFileReference; name = "detail2.png"; path = "../src/assets/images/detail2.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		AF2EDE9BE0D2427FBB541B58 /* emergency.png */ = {isa = PBXFileReference; name = "emergency.png"; path = "../src/assets/images/emergency.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2F060891C0BD42319850E727 /* help.png */ = {isa = PBXFileReference; name = "help.png"; path = "../src/assets/images/help.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		50767860CFC548B88F8CE1A0 /* home.png */ = {isa = PBXFileReference; name = "home.png"; path = "../src/assets/images/home.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		51B047CD67AA49BC8ADA5D62 /* Knowledge.png */ = {isa = PBXFileReference; name = "Knowledge.png"; path = "../src/assets/images/Knowledge.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FF8F27C024EB48C3A916D011 /* menu.png */ = {isa = PBXFileReference; name = "menu.png"; path = "../src/assets/images/menu.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E5EF5562D6C341678A866B3C /* settings.png */ = {isa = PBXFileReference; name = "settings.png"; path = "../src/assets/images/settings.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8A0E4683A899483CB701264D /* stats.png */ = {isa = PBXFileReference; name = "stats.png"; path = "../src/assets/images/stats.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FB502584733C445A93C56A3A /* User.png */ = {isa = PBXFileReference; name = "User.png"; path = "../src/assets/images/User.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CA8CF821B9E84E209E6CBE2D /* fredoka.ttf */ = {isa = PBXFileReference; name = "fredoka.ttf"; path = "../src/assets/fonts/fredoka.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CDBEA9A47DA24B9493F1095D /* fredokaa.ttf */ = {isa = PBXFileReference; name = "fredokaa.ttf"; path = "../src/assets/fonts/fredokaa.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +166,7 @@
 				00E356EF1AD99517003FC87E /* AwesomeProjectTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				E79BFE2CE8644460ABB90BD9 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -156,6 +183,27 @@
 			);
 			name = Products;
 			sourceTree = "<group>";
+		};
+		E79BFE2CE8644460ABB90BD9 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				B1CAFF93BE9247CAAB17F1B6 /* FredokaOne-Regular.ttf */,
+				9553D1AB2AFB4ECD8A445828 /* detail.png */,
+				73BD3E158E8C431E99308001 /* detail2.png */,
+				AF2EDE9BE0D2427FBB541B58 /* emergency.png */,
+				2F060891C0BD42319850E727 /* help.png */,
+				50767860CFC548B88F8CE1A0 /* home.png */,
+				51B047CD67AA49BC8ADA5D62 /* Knowledge.png */,
+				FF8F27C024EB48C3A916D011 /* menu.png */,
+				E5EF5562D6C341678A866B3C /* settings.png */,
+				8A0E4683A899483CB701264D /* stats.png */,
+				FB502584733C445A93C56A3A /* User.png */,
+				CA8CF821B9E84E209E6CBE2D /* fredoka.ttf */,
+				CDBEA9A47DA24B9493F1095D /* fredokaa.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -295,6 +343,19 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				1A2B5ED7F6104060A0F4D19F /* FredokaOne-Regular.ttf in Resources */,
+				A37C3090DC654D1DBDEAC648 /* detail.png in Resources */,
+				70C34DD3D099436FAABE2F2E /* detail2.png in Resources */,
+				AD927CBAA7E346899AFEAA03 /* emergency.png in Resources */,
+				0E77C014D30A4126BA456069 /* help.png in Resources */,
+				428DEEBB660D44859FA7F114 /* home.png in Resources */,
+				FA10FEE6EAA94A54AF7542C9 /* Knowledge.png in Resources */,
+				46EFC4A474674B469A731F48 /* menu.png in Resources */,
+				E79602C456014636B476640F /* settings.png in Resources */,
+				C2A20B940FB44AB58598E4B4 /* stats.png in Resources */,
+				6654DCABC7F946F1B87C741B /* User.png in Resources */,
+				8FB90E6599C140DFA3D7264E /* fredoka.ttf in Resources */,
+				15A75CCE61EC4DAC90C7A55F /* fredokaa.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
