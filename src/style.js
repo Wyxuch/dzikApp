@@ -19,27 +19,40 @@ const style = {
     },
     Shadow: {
         margin: -3,
-        shadowColor: "#000",
+        shadowColor: "#000000",
         shadowOffset: {
             width: 0,
             height: 20,
         },
-        shadowOpacity: 1,
+        shadowOpacity: 0.5,
         shadowRadius: 2.22,
-        elevation: 4,
+        zIndex: 200,
     },
     TopNav: {
         display: 'flex',
         flexDirection: 'row',
-        justifyContent: 'center',
+        justifyContent: 'space-between',
         alignItems: 'center',
         backgroundColor: darkGreen,
         height: 56,
     },
+    LogoWrapper:{
+        marginRight: -50,
+        display: 'flex',
+        flexDirection: 'row',
+        alignItems: 'center',
+    },
+    Logo: {
+        height: 30,
+        width: 50,
+    },
     NavTitle: {
+        fontFamily: 'fredoka',
         color: lightGray,
-        fontWeight: 'bold',
-        fontSize: 36
+        fontSize: 38,
+    },
+    MenuButton: {
+
     }
 }
 
