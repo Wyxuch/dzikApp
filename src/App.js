@@ -31,7 +31,6 @@ const App: () => React$Node = () => {
     <View style={{flex: 1}}>
       <StatusBar barStyle="dark-content" />
       <SafeAreaView style={{flex: 1}}>
-        <TopNav />
           <NavigationContainer>
             <View style={style.Main}>
                 <Drawer.Navigator initialRouteName="Home">

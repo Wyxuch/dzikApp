@@ -37,12 +37,13 @@ const style = {
         height: 56,
     },
     LogoWrapper:{
-        marginRight: -50,
+        marginLeft: -50,
         display: 'flex',
         flexDirection: 'row',
         alignItems: 'center',
     },
     Logo: {
+        marginLeft: 5,
         height: 30,
         width: 50,
     },
