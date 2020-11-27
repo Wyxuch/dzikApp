@@ -1,13 +1,13 @@
 import React from "react";
-import { View } from "react-native";
-import { style } from "";
+import { View, Text} from "react-native";
+import style from "../../style";
 
-const TopNav = () => {
+const Settings = () => {
     return (
-        <View style={style.TopNav}>
-
+        <View>
+            <Text>Settings</Text>
         </View>
     );
 };
 
-export default TopNav;
+export default Settings;
