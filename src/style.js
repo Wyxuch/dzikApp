@@ -9,6 +9,8 @@ const darkYellow = 'BF770F'
 const darkRed = 'EB3223'
 const loghterGreen = '499F13'
 const lightRed = 'F67E3A'
+const lightBlue = '1E67B9'
+const darkBlue = '1E67B9'
 
 const style = {
     Main: {
